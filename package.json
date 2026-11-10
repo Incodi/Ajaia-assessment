@@ -1,0 +1,27 @@
+{
+  "name": "minimal-docs-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "vitest run",
+    "test:browser": "playwright test --config playwright.config.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "express": "^5.1.0",
+    "mammoth": "^1.13.0",
+    "multer": "^2.5.0",
+    "sanitize-html": "^2.18.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "supertest": "^7.1.4",
+    "vitest": "^3.2.4"
+  },
+  "overrides": {
+    "@xmldom/xmldom": "^0.8.15",
+    "underscore": "^1.13.8"
+  }
+}
