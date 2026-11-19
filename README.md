@@ -96,4 +96,8 @@ docker run --rm -p 3000:3000 --mount source=docs-data,target=/app/data docs-app
 - **Local files:** attachments live beside the SQLite file so one persistent
   volume can preserve both. Object storage and multi-instance coordination are
   cut and for stretch goals.
-- **Deliberately cut/stretch goals:** real passwords/OAuth, comments, version   history, real-time collaboration, presence cursors, folders, pagination, image embedding, a mobile app, TypeScript, and an ORM.
+- **Deliberately cut/stretch goals:** real passwords/OAuth, comments, version history, real-time collaboration, presence cursors, folders, pagination, image embedding, a mobile app, TypeScript, and an ORM.
+
+## TODO
+### Best idea:
+- Create a spreadsheet mode 
